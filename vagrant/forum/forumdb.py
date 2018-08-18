@@ -27,5 +27,8 @@ def add_post(content):
   # % means any string can go there
   # c.execute(
   #   "update posts set content = 'This spam message has been deleted!' where content like '%Spam%'")
+
+  # Code to delete spam 
+  # c.execute("delete from posts where content = 'cheese';")
   db.commit()
   db.close()
